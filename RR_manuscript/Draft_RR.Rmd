@@ -909,7 +909,7 @@ Analysts had on average `r pull_from_tib(tbl_team_desc, label, "team_desc_years_
 The analysts' prior belief in the effect under investigation, on a scale from 0 to 100, ranged from `r pull_from_tib(tbl_team_desc, label, "team_desc_prior_belief", Min.)` to `r pull_from_tib(tbl_team_desc, label, "team_desc_prior_belief", Max)` with an average of `r pull_from_tib(tbl_team_desc, label, "team_desc_prior_belief", avg)` (SD = `r pull_from_tib(tbl_team_desc, label, "team_desc_prior_belief", sd)`).
 We take this to suggest that, overall, analysts had a rather high positive prior belief in the investigated relationship between acoustics and word combination typicality.
 
-At the end of Phase 2 (primary data analysis), the teams had submitted a grand total `r no_analyses` individual models to answer the research question, with a mean of `r pull_from_tib(tbl_model_desc, label, "model_desc_models", avg)` (SD: `r pull_from_tib(tbl_model_desc, label, "model_desc_models", sd)`) models per team. 
+At the end of Phase 2 (primary data analysis), the teams had submitted a grand total of `r no_analyses` individual models to answer the research question, with a mean of `r pull_from_tib(tbl_model_desc, label, "model_desc_models", avg)` (SD: `r pull_from_tib(tbl_model_desc, label, "model_desc_models", sd)`) models per team. 
 Table \@ref(tab:descriptives-table) provides a summary of the contributing teams and their analyses. 
 Crucially, the analytic approaches employed by the teams varied widely both in the acoustical analyses of the speech signal and in the statistical analyses of the obtained measures.
 We proceed to discuss these in the following sections, after which we provide an overview of the peer-review ratings.
